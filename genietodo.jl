@@ -167,7 +167,7 @@ function ui()
             section(class="todo-list", [
                 ul(class="todo-list", [
                     # List of todos, using @recur for iteration
-                    li(class="todo-item", @recur("todo in filtered_todos"), [
+                    li(class="todo-item", @recur("todo in filtered_todos"), (key!)="todo.id", [
                         # Checkbox for toggling todo status
                         input(type="checkbox", class="form-check-input", @on("change", "toggle_todo = todo.id"), (checked!)="todo.completed", (id!)="'todo-' + todo.id"),
                         # Todo text
