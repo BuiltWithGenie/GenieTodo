@@ -1,0 +1,133 @@
+┌ Info: 2024-08-02 14:58:25 
+│ Web Server starting at http://127.0.0.1:8000 - press Ctrl/Cmd+C to stop the server. 
+└ @ Genie.Server W:\julia\packages\Genie\uliWf\src\Server.jl:182
+┌ Info: 2024-08-02 14:58:26 Watching ["W:\\Projects\\GenieTests\\genietodo"]
+└ @ GenieAutoReload W:\julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:19
+┌ Info: 2024-08-02 14:58:26 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers W:\julia\packages\HTTP\sJD5V\src\Servers.jl:382
+┌ Info: 2024-08-02 14:58:26 Autoreloading
+└ @ GenieAutoReload W:\julia\packages\GenieAutoReload\ESvsh\src\GenieAutoReload.jl:22
+┌ Info: 2024-08-02 14:59:01 processing new todo
+│   __model__.new_todo[] = Buy milk
+│   process_new_todo = true
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:58
+┌ Info: 2024-08-02 14:59:02 add_todo called
+│   text = Buy milk
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:66
+┌ Info: 2024-08-02 14:59:02 todos changed
+│   todos = Todo[Todo(1, "Buy milk", false)]
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:29
+┌ Info: 2024-08-02 14:59:02 update_filtered_todos called
+│   filter = all
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 14:59:02 filter changed
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 14:59:02 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 14:59:08 processing new todo
+│   __model__.new_todo[] = Go to gym
+│   process_new_todo = false
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:58
+┌ Info: 2024-08-02 14:59:08 add_todo called
+│   text = Go to gym
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:66
+┌ Info: 2024-08-02 14:59:08 todos changed
+│   todos = Todo[Todo(1, "Buy milk", false), Todo(2, "Go to gym", false)]
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:29
+┌ Info: 2024-08-02 14:59:08 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 14:59:08 filter changed
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 14:59:08 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 14:59:11 processing new todo
+│   __model__.new_todo[] = Code with Genie
+│   process_new_todo = true
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:58
+┌ Info: 2024-08-02 14:59:11 add_todo called
+│   text = Code with Genie
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:66
+┌ Info: 2024-08-02 14:59:11 todos changed
+│   todos = Todo[Todo(1, "Buy milk", false), Todo(2, "Go to gym", false), Todo(3, "Code with Genie", false)]
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:29
+┌ Info: 2024-08-02 14:59:11 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 14:59:11 filter changed
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 14:59:11 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:08 processing new todo
+│   __model__.new_todo[] = Foo
+│   process_new_todo = false
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:58
+┌ Info: 2024-08-02 15:00:08 add_todo called
+│   text = Foo
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:66
+┌ Info: 2024-08-02 15:00:08 todos changed
+│   todos = Todo[Todo(1, "Buy milk", false), Todo(2, "Go to gym", false), Todo(3, "Code with Genie", false), Todo(4, "Foo", false)]
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:29
+┌ Info: 2024-08-02 15:00:08 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:08 filter changed
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 15:00:08 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:10 toggle_todo called
+│   toggle_todo = 1
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:77
+┌ Info: 2024-08-02 15:00:11 todos changed
+│   todos = Todo[Todo(1, "Buy milk", true), Todo(2, "Go to gym", false), Todo(3, "Code with Genie", false), Todo(4, "Foo", false)]
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:29
+┌ Info: 2024-08-02 15:00:11 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:14 filter changed
+│   filter = completed
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 15:00:14 update_filtered_todos called
+│   filter = completed
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:15 filter changed
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 15:00:15 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:17 toggle_todo called
+│   toggle_todo = 2
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:77
+┌ Info: 2024-08-02 15:00:17 todos changed
+│   todos = Todo[Todo(1, "Buy milk", true), Todo(2, "Go to gym", true), Todo(3, "Code with Genie", false), Todo(4, "Foo", false)]
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:29
+┌ Info: 2024-08-02 15:00:17 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:19 filter changed
+│   filter = completed
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 15:00:19 update_filtered_todos called
+│   filter = completed
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:20 filter changed
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 15:00:20 update_filtered_todos called
+│   filter = active
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
+┌ Info: 2024-08-02 15:00:21 filter changed
+│   filter = all
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:38
+┌ Info: 2024-08-02 15:00:21 update_filtered_todos called
+│   filter = all
+└ @ Main W:\Projects\GenieTests\genietodo\genietodo.jl:44
