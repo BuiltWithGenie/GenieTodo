@@ -2,6 +2,7 @@
 
 A simple todo app built with GenieFramework.
 The app uses Genie's low-code features to create a simple but complete todo app.
+![CleanShot 2024-10-01 at 10 46 05](https://github.com/user-attachments/assets/d3845ec6-75cb-4737-8674-26e39d4331b2)
 
 ## How to run
 
